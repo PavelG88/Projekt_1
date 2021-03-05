@@ -26,20 +26,24 @@ body {
 .info_lesson_format {
     display: flex;
     justify-content: flex-start;
-    width: 60.88%;
 }
 
-/* .item_info {
-    width: 13.94;
-} */
+.item_info {
+    width: 26%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
 
 .item_info h3 {
     font-weight: bold;
     font-size: 25px;
     line-height: 130%;
     color: #1E4681;
+    margin: 30% 0 1% 0;
 }
 
 .item_info p {
     font-size: 18px;
+    margin: 0;
 }
+
