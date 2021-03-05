@@ -47,3 +47,61 @@ body {
     margin: 0;
 }
 
+@media (max-width: 1279px) {
+    .wrapper {
+        max-width: 834px;
+    }
+    
+    .lesson_format {
+        padding: 0 70px;    
+    }
+    
+    .lesson_format h2 {
+        font-size: 32px;
+    }
+    
+    .item_info {
+        width: 19%;
+        padding-right: 4%;
+    }
+    
+    .item_info h3 {
+        font-size: 15px;
+    }
+    
+    .item_info p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        max-width: 375px;
+    }
+    
+    .lesson_format {
+        padding: 0 35px;    
+    }
+    
+    .lesson_format h2 {
+        font-size: 26px;
+    }
+    
+    .info_lesson_format {
+        flex-direction: column;
+    }
+
+    .item_info {
+        width: 60%;
+        padding-bottom: 5%;
+    }
+    
+    .item_info h3 {
+        font-size: 12px;
+        margin: 10% 0 1% 0;
+    }
+    
+    .item_info p {
+        font-size: 10px;
+    }
+}
