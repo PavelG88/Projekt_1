@@ -57,8 +57,15 @@ body {
     .courseProgramm .courseProgramm__title h2 {
         font-size: 32px;
     }
-    .courseProgramm__title h2 {
-        font-size: 32px;
+    .courseProgramm .courseProgramm__title h2 {
+        padding-left: 50px;
+    }
+    .courseProgramm .courseProgramm__sections h3 {
+        font-size: 20px;
+    }
+    .courseProgramm .courseProgramm__sections p {
+        font-size: 14px;
+        padding: 10px 0 7px 0;
     }
     .item_info {
         width: 19%;
@@ -69,6 +76,48 @@ body {
     }
     .item_info p {
         font-size: 11px;
+    }
+}
+
+@media(max-width: 692px) and (min-width: 0) {
+    .mainContainer {
+        max-width: 394px;
+        min-width: 340px;
+    }
+    .synchronization-logo {
+        width: 52.19px;
+        height: 30.75px;
+    }
+    .howToWatch {
+        display: block;
+    }
+    .head-info {
+        padding-top: 35px;
+    }
+    .head-info p {
+        font-size: 10px;
+        padding: 2px 0 0 5px;
+    }
+    .head-info__block {
+        padding-left: 14.5px;
+    }
+    .head-info__block img {
+        width: 12.74px;
+        height: 12.74px;
+    }
+    .courseProgramm .courseProgramm__sections {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 0;
+        width: 100%;
+    }
+    .courseProgramm .courseProgramm__sections .courseProgramm__programm-block {
+        margin: 0 auto 25px auto;
+        width: 70%;
+    }
+    .courseProgramm__man-computer {
+        display: none;
     }
 }
 
@@ -92,7 +141,7 @@ body {
     margin: 0;
     font-size: 55px;
     font-weight: 800;
-    /* padding-left: 60px; */
+    padding-left: 90px;
 }
 
 .courseProgramm__blackline {
