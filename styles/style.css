@@ -12,24 +12,15 @@ body {
     width: 112px; 
     right: 66px;
     margin-top: 21px;
-    margin-left: 121px;
 }
 
-.icon {
-    width: 22px;
-    right: 21px
-}
-
-.container {
+.container_icon{
     display: flex;
-}
-
-.icon {
     width: 50%;
     font-size: 20px;
     margin-top: 97px;
-    margin-left: 121px;
-    }
+}
+
 .icon_photo {
     margin-right: 25px;
 }
@@ -40,44 +31,81 @@ span {
     text-align: center;
 }
 
+.top_container {
+    display: flex;
+}
+
 .top_text{
     font-size: 20px;
-    margin-left: 121px;
 }
 
 h1 {
     font-size: 80px;
-    margin-right: 140px;
     margin-bottom: 0;
 }
 
 .top_directed {
-    width: 304px;
-    right: 356px;
+   margin: 0 auto;
 }
 
 .section {
     background: #1E4681;
     color: white;
-    width: 483.63px;
-    height: 200px;
-    margin-top: 87px;
+    width: 25%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
 }
 
 .selection_text {
-    font-size: 25px;
+    font-size: 25px;  
 }
 
 .author {
     font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;         
+}
+
+h2 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.operator_container {
+    display: flex;
+}
+
+.operator_text {
+    width: 60%;
+    font-size: 24px;
 }
 
 .operator_photo {
-    width: 314px;
-    right: 315px;
+    margin: 0 auto;
 }
 
-.photo_7 {
-    width: 232px;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+b {
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+    width: 10%;
+}
+
+
+.menu_text {
+    font-size: 18px;
+}
