@@ -54,16 +54,16 @@ body {
         padding: 0 70px;
     }
     .lesson_format h2,
-    .courseProgramm .courseProgramm__title h2 {
+    .course_programm .course_programm__title h2 {
         font-size: 32px;
     }
-    .courseProgramm .courseProgramm__title h2 {
+    .course_programm .course_programm__title h2 {
         padding-left: 50px;
     }
-    .courseProgramm .courseProgramm__sections h3 {
+    .course_programm .course_programm__sections h3 {
         font-size: 20px;
     }
-    .courseProgramm .courseProgramm__sections p {
+    .course_programm .course_programm__sections p {
         font-size: 14px;
         padding: 10px 0 7px 0;
     }
@@ -79,7 +79,7 @@ body {
     }
 }
 
-@media(max-width: 692px) and (min-width: 0) {
+@media(max-width: 692px) {
     .mainContainer {
         max-width: 394px;
         min-width: 340px;
@@ -105,18 +105,18 @@ body {
         width: 12.74px;
         height: 12.74px;
     }
-    .courseProgramm .courseProgramm__sections {
+    .course_programm .course_programm__sections {
         display: block;
         flex-direction: column;
         width: 100%;
-        padding: 0 0 0 0;
+        padding: 0;
         width: 100%;
     }
-    .courseProgramm .courseProgramm__sections .courseProgramm__programm-block {
+    .course_programm .course_programm__sections .course_programm__programm-block {
         margin: 0 auto 25px auto;
         width: 70%;
     }
-    .courseProgramm__man-computer {
+    .course_programm__man-computer {
         display: none;
     }
 }
@@ -124,19 +124,18 @@ body {
 
 /* Программа курса */
 
-.courseProgramm {
-    width: 96%;
+.course_programm {
     margin: 0 auto;
 }
 
-.courseProgramm__title {
+.course_programm__title {
     margin: 0 auto 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.courseProgramm__title h2 {
+.course_programm__title h2 {
     font-family: 'Roboto Slab', serif;
     margin: 0;
     font-size: 55px;
@@ -144,17 +143,17 @@ body {
     padding-left: 90px;
 }
 
-.courseProgramm__blackline {
+.course_programm__blackline {
     width: 32%;
     background-color: black;
 }
 
-.courseProgramm img {
+.course_programm img {
     width: 100%;
     border-radius: 30px 30px 0px 0px;
 }
 
-.courseProgramm__sections {
+.course_programm__sections {
     display: flex;
     /* justify-content: flex-start; */
     flex-wrap: wrap;
@@ -171,13 +170,13 @@ body {
     margin: 0;
 }
 
-.courseProgramm__sections h3 {
+.course_programm__sections h3 {
     font-size: 30px;
     padding: 10px 0 7px 0;
     margin: 0 0 25px 0;
 }
 
-.courseProgramm__programm-block {
+.course_programm__programm-block {
     margin: 10px;
     width: 30%;
     height: 32%;
@@ -187,7 +186,7 @@ body {
     box-sizing: border-box;
 }
 
-.courseProgramm__lastBlock h3 {
+.course_programm__lastBlock h3 {
     margin: 0;
 }
 
@@ -195,7 +194,7 @@ body {
     margin: 0;
 }
 
-.courseProgramm__man-computer img {
+.course_programm__man-computer img {
     width: 253px;
     height: 199px;
     position: absolute;
