@@ -47,6 +47,53 @@ body {
     margin: 0;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: black;
+    padding: 50px 147px 40px 121px;   
+}
+
+.footer_info_contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_logo {
+    width: 115px;
+}
+
+.footer_info_messeger img {
+    width: 30px;
+    margin: 30px 18px 18px 0;
+}
+
+.footer_copyright {
+    margin-top: 146px;
+    color: white;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.tele, .mail {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    width: 27px;
+    height: 27px;
+    margin: 0 22px 25px 0;
+}
+
+.contacts p {
+    font-size: 25px;
+    line-height: 101.38%;
+    color: white;
+    margin: 0;
+}
+
 @media (max-width: 1279px) {
     .wrapper {
         max-width: 834px;
@@ -71,6 +118,35 @@ body {
     
     .item_info p {
         font-size: 11px;
+    }
+
+    footer {
+        padding: 29px 100px 29px 71px;
+    }
+    
+    .footer_info_logo img {
+        width: 67px;
+    }
+    
+    .footer_info_messeger img {
+        width: 19px;
+        margin: 17px 10.5px 17px 0;
+    }
+    
+    .footer_copyright {
+        margin-top: 85px;
+        font-size: 10px;
+    }
+    
+    .contacts img {
+        width: 15.6px;
+        height: 15.6px;
+        margin: 0 13px 14px 0;
+    }
+    
+    .contacts p {
+        font-size: 14px;
+        margin: 0 13px 14px 0;
     }
 }
 
@@ -102,6 +178,43 @@ body {
     }
     
     .item_info p {
+        font-size: 10px;
+    }
+
+    footer {
+        padding: 23px 57px;
+    }
+    
+    .footer_info_contacts {
+        display: block;
+    }
+
+    .footer_info_logo img {
+        width: 54px;
+    }
+    
+    .footer_info_messeger img {
+        width: 15px;
+        margin: 14px 8px 14px 0;
+    }
+    
+    .contacts {
+        margin-top: 48px;
+    }
+
+    .contacts img {
+        width: 12px;
+        height: 12px;
+        margin: 0 10px 11px 0;
+    }
+    
+    .contacts p {
+        font-size: 14px;
+        margin: 0 10px 11px 0;
+    }
+
+    .footer_copyright {
+        margin-top: 48px;
         font-size: 10px;
     }
 }
