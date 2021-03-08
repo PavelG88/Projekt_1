@@ -11,12 +11,13 @@ body {
     margin: 0 auto;
 }
 
+/* 3. Block lesson format */
 .lesson_format {
     padding: 0 121px;    
 }
 
 .lesson_format h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif ;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -28,12 +29,11 @@ body {
     max-width: 974px;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .item_info {
-    width: calc(33.333% - 30px);
-    margin: 5px 30px 5px 0;
+    width: 30%;
 }
 
 .item_info h3 {
@@ -65,11 +65,6 @@ body {
     
     .info_lesson_format {
         max-width: 564.11px;
-    }
-
-    .item_info {
-        width: calc( 100% / 3 - 10px);
-        margin: 5px 10px 5px 0;
     }
     
     .item_info h3 {
