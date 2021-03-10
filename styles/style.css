@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+header {
+    padding: 0 121px;
+    box-sizing: border-box;
+}
+
 .photo_1 {
     width: 112px; 
     right: 66px;
@@ -35,6 +40,8 @@ span {
 
 .top_container {
     display: flex;
+    padding: 0 121px;
+    box-sizing: border-box;
 }
 
 .top_text{
@@ -52,30 +59,35 @@ h1 {
 
 .section {
     background: #1E4681;
-    color: white;
-    width: 25%;
+    color: rgb(131, 127, 127);
+    max-width: 280px;
     margin: 30px auto;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 15px;
+    border-radius: 2.89583px;
+    box-sizing: border-box;
 }
 
 .selection_text {
-    font-size: 25px;  
+    font-family: Roboto Slab;
+    font-size: 14px;  
 }
 
 .author {
-    font-size: 20px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-top: 20px;         
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;         
 }
 
 h2 {
     font-size: 55px;
     margin: 0;
+}
+
+.operator {
+    padding: 0 121px;
+    box-sizing: border-box;
 }
 
 .operator_container {
@@ -114,7 +126,9 @@ b {
 
 /* 3. Block lesson format */
 .lesson_format {
+    margin-top: 90px;
     padding: 0 121px;
+    box-sizing: border-box;
 }
 
 .lesson_format h2 {
@@ -152,7 +166,9 @@ b {
 
 /* 4. Block What learn */
 .what_learn {
-    padding: 0 121px;    
+    margin-top: 90px;
+    padding: 0 121px;
+    box-sizing: border-box;    
 }
 
 .what_learn h2 {
@@ -176,7 +192,7 @@ b {
 
 .courseProgramm {
     width: 96%;
-    margin: 0 auto;
+    margin: 90px auto;
 }
 
 .courseProgramm__title {
