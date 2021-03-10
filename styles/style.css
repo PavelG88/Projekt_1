@@ -7,31 +7,33 @@ body {
 }
 
 .wrapper {
-    max-width: 1600px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
+/* 3. Block lesson format */
 .lesson_format {
     padding: 0 121px;    
 }
 
 .lesson_format h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif ;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
+    margin-bottom: 100px;
 }
 
 .info_lesson_format {
+    max-width: 974px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .item_info {
-    width: 26%;
-    padding-right: 5%;
-    box-sizing: border-box;
+    width: 30%;
 }
 
 .item_info h3 {
@@ -39,7 +41,7 @@ body {
     font-size: 25px;
     line-height: 130%;
     color: #1E4681;
-    margin: 30% 0 1% 0;
+    margin-bottom: 0;
 }
 
 .item_info p {
@@ -58,11 +60,11 @@ body {
     
     .lesson_format h2 {
         font-size: 32px;
+        margin-bottom: 53px;
     }
     
-    .item_info {
-        width: 19%;
-        padding-right: 4%;
+    .info_lesson_format {
+        max-width: 564.11px;
     }
     
     .item_info h3 {
@@ -85,20 +87,22 @@ body {
     
     .lesson_format h2 {
         font-size: 26px;
+        margin-bottom: 23px;
     }
     
     .info_lesson_format {
         flex-direction: column;
+        max-width: 180px;
+
     }
 
     .item_info {
-        width: 60%;
-        padding-bottom: 5%;
+        width: 100%;
+        margin: 0 0 23px 0;
     }
     
     .item_info h3 {
         font-size: 12px;
-        margin: 10% 0 1% 0;
     }
     
     .item_info p {
