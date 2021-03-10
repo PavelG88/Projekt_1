@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 body {
     margin: 0;
     font-family: Roboto;
@@ -115,7 +114,7 @@ b {
 
 /* 3. Block lesson format */
 .lesson_format {
-    padding: 0 121px;    
+    padding: 0 121px;
 }
 
 .lesson_format h2 {
@@ -173,16 +172,106 @@ b {
     padding: 0;
 }
 
+/* Программа курса */
+
+.courseProgramm {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.courseProgramm__title {
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courseProgramm__title h2 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    font-size: 55px;
+    font-weight: 800;
+    padding-left: 90px;
+}
+
+.courseProgramm__blackline {
+    width: 32%;
+    background-color: black;
+}
+
+.courseProgramm img {
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.courseProgramm__sections {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.text-info {
+    padding-left: 20px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.text-info p {
+    margin: 0;
+}
+
+.courseProgramm__sections h3 {
+    font-size: 30px;
+    padding: 10px 0 7px 0;
+    margin: 0 0 25px 0;
+}
+
+.courseProgramm__programm-block {
+    margin: 10px;
+    width: 30%;
+    height: 32%;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+.courseProgramm__lastBlock h3 {
+    margin: 0;
+}
+
+.last-block {
+    margin: 0;
+}
+
+.courseProgramm__man-computer img {
+    width: 253px;
+    height: 199px;
+    position: absolute;
+    margin: 245px 0 0 110px;
+}
+
+.man-computer-puddle {
+    position: relative;
+    background-color: #EFEFEF;
+    width: 232px;
+    height: 32px;
+    border-radius: 100%;
+    z-index: -1;
+    top: 430px;
+    left: 90px;
+}
+
 @media (max-width: 1279px) {
     .wrapper {
         max-width: 834px;
     }
-    
     .lesson_format {
-        padding: 0 70px;    
+        padding: 0 70px;
     }
-    
-    .lesson_format h2 {
+    .lesson_format h2,
+    .courseProgramm .courseProgramm__title h2 {
         font-size: 32px;
         margin-bottom: 53px;
     }
@@ -190,11 +279,21 @@ b {
     .info_lesson_format {
         max-width: 564.11px;
     }
+
+    .courseProgramm .courseProgramm__title h2 {
+        padding-left: 50px;
+    }
+    .courseProgramm .courseProgramm__sections h3 {
+        font-size: 20px;
+    }
+    .courseProgramm .courseProgramm__sections p {
+        font-size: 14px;
+        padding: 10px 0 7px 0;
+    }
     
     .item_info h3 {
         font-size: 15px;
     }
-    
     .item_info p {
         font-size: 11px;
     }
@@ -215,13 +314,14 @@ b {
     }
 }
 
-@media (max-width: 991px) {
-    .wrapper {
-        max-width: 375px;
+@media(max-width: 692px) and (min-width: 0) {
+    .mainContainer {
+        max-width: 394px;
+        min-width: 340px;
     }
-    
-    .lesson_format {
-        padding: 0 35px;    
+    .synchronization-logo {
+        width: 52.19px;
+        height: 30.75px;
     }
     
     .lesson_format h2 {
@@ -244,8 +344,29 @@ b {
         font-size: 12px;
     }
     
-    .item_info p {
+    .howToWatch {
+        display: block;
+    }
+    .head-info {
+        padding-top: 35px;
+    }
+    .head-info p {
         font-size: 10px;
+        padding: 2px 0 0 5px;
+    }
+    .head-info__block {
+        padding-left: 14.5px;
+    }
+    .head-info__block img {
+        width: 12.74px;
+        height: 12.74px;
+    }
+    .courseProgramm .courseProgramm__sections {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 0;
+        width: 100%;
     }
 
     .what_learn {
@@ -261,5 +382,12 @@ b {
         max-width: 307px;
         font-size: 12px;
         margin-left: 8px;
+    }
+    .courseProgramm .courseProgramm__sections .courseProgramm__programm-block {
+        margin: 0 auto 25px auto;
+        width: 70%;
+    }
+    .courseProgramm__man-computer {
+        display: none;
     }
 }
