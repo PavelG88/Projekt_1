@@ -314,6 +314,102 @@ b {
     padding-left: 30px;
 }
 
+
+.course_start {
+    width:100%;
+    margin: 0 auto;
+    background: #9DC9C8;
+}
+
+.course_start__header {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 101.38%;
+    padding: 179px 0 0 122px;
+    margin: 0 0 54px 0;
+}
+
+.course_start__cost {
+    font-size: 25px;
+    margin: 0;
+    padding-left: 122px;
+}
+
+.course_start__cost_value {
+    font-size: 80px;
+    margin: 0;
+    padding-left: 122px;
+    margin-bottom: 75px;
+}
+
+.course_start__content {
+    display: flex;
+    padding-bottom: 185px;
+}
+
+.course_start__content_title {
+    padding-right:70px;
+    width:21%;
+    padding-left: 122px;
+}
+
+.course_start__content_subtitle {
+    font-size: 25px;
+    margin: 0;    
+}
+
+.course_start__content_text {
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    padding: 50px 147px 40px 121px;   
+}
+
+.footer_info_contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_logo {
+    width: 115px;
+}
+
+.footer_info_messeger img {
+    width: 30px;
+    margin: 30px 18px 18px 0;
+}
+
+.footer_copyright {
+    margin-top: 146px;
+    color: white;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.tele, .mail {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    width: 27px;
+    height: 27px;
+    margin: 0 22px 25px 0;
+}
+
+.contacts p {
+    font-size: 25px;
+    line-height: 101.38%;
+    color: white;
+    margin: 0;
+}
+
 @media (min-width: 992px) and (max-width: 1279px) {
 
     .lesson_format {
@@ -345,6 +441,35 @@ b {
     }
     .item_info p {
         font-size: 11px;
+    }
+
+    footer {
+        padding: 29px 100px 29px 71px;
+    }
+    
+    .footer_info_logo img {
+        width: 67px;
+    }
+    
+    .footer_info_messeger img {
+        width: 19px;
+        margin: 17px 10.5px 17px 0;
+    }
+    
+    .footer_copyright {
+        margin-top: 85px;
+        font-size: 10px;
+    }
+    
+    .contacts img {
+        width: 15.6px;
+        height: 15.6px;
+        margin: 0 13px 14px 0;
+    }
+    
+    .contacts p {
+        font-size: 14px;
+        margin: 0 13px 14px 0;
     }
 
     .what_learn {
@@ -411,6 +536,55 @@ b {
         width: 18.53px;
         height: 17.95px;
         padding-left:17.38px;
+    }
+
+    .course_start {
+        width:100%;
+        margin: 0 auto;
+        background: #9DC9C8;
+    }
+
+    .course_start__header {
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 101.38%;
+        padding: 103.67px 0 0 70.66px;
+        margin: 0 0 31.27px 0;
+    }
+
+    .course_start__cost {
+        font-size: 14px;
+        margin: 0;
+        padding-left: 70.66px;
+    }
+
+    .course_start__cost_value {
+        font-size: 46px;
+        margin: 0;
+        padding-left: 70.66px;
+        margin-bottom: 75px;
+    }
+
+    .course_start__content {
+        display: flex;
+        padding-bottom: 107.15px;
+    }
+
+    .course_start__content_title {
+        padding-right:20px;
+        width:21%;
+        padding-left: 70.66px;
+    }
+
+    .course_start__content_subtitle {
+        font-size: 14px;
+        margin: 0;    
+    }
+
+    .course_start__content_text {
+        font-size: 10px;
     }
 }
 
@@ -542,110 +716,44 @@ b {
         padding-left:13.63px;
 
     }
-}
 
-.course_start {
-    width:100%;
-    margin: 0 auto;
-    background: #9DC9C8;
-}
-
-.course_start__header {
-    font-size: 55px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 101.38%;
-    padding: 179px 0 0 122px;
-    margin: 0 0 54px 0;
-}
-
-.course_start__cost {
-    font-size: 25px;
-    margin: 0;
-    padding-left: 122px;
-}
-
-.course_start__cost_value {
-    font-size: 80px;
-    margin: 0;
-    padding-left: 122px;
-    margin-bottom: 75px;
-}
-
-.course_start__content {
-    display: flex;
-    padding-bottom: 185px;
-}
-
-.course_start__content_title {
-    padding-right:70px;
-    width:21%;
-    padding-left: 122px;
-}
-
-.course_start__content_subtitle {
-    font-size: 25px;
-    margin: 0;    
-}
-
-.course_start__content_text {
-    font-size: 18px;
-}
-
- /*Под планшет*/
-
-@media(max-width: 1279px) and (min-width: 992px) {
-    .course_start {
-        width:100%;
-        margin: 0 auto;
-        background: #9DC9C8;
+    footer {
+        padding: 23px 57px;
+    }
+    
+    .footer_info_contacts {
+        display: block;
     }
 
-    .course_start__header {
-        font-family: 'Roboto Slab', serif;
-        font-size: 32px;
-        font-weight: 700;
-        font-style: normal;
-        line-height: 101.38%;
-        padding: 103.67px 0 0 70.66px;
-        margin: 0 0 31.27px 0;
+    .footer_info_logo img {
+        width: 54px;
+    }
+    
+    .footer_info_messeger img {
+        width: 15px;
+        margin: 14px 8px 14px 0;
+    }
+    
+    .contacts {
+        margin-top: 48px;
     }
 
-    .course_start__cost {
+    .contacts img {
+        width: 12px;
+        height: 12px;
+        margin: 0 10px 11px 0;
+    }
+    
+    .contacts p {
         font-size: 14px;
-        margin: 0;
-        padding-left: 70.66px;
+        margin: 0 10px 11px 0;
     }
 
-    .course_start__cost_value {
-        font-size: 46px;
-        margin: 0;
-        padding-left: 70.66px;
-        margin-bottom: 75px;
-    }
-
-    .course_start__content {
-        display: flex;
-        padding-bottom: 107.15px;
-    }
-
-    .course_start__content_title {
-        padding-right:20px;
-        width:21%;
-        padding-left: 70.66px;
-    }
-
-    .course_start__content_subtitle {
-        font-size: 14px;
-        margin: 0;    
-    }
-
-    .course_start__content_text {
+    .footer_copyright {
+        margin-top: 48px;
         font-size: 10px;
     }
-}
 
-@media(max-width: 992px) and (min-width: 0) {
     .course_start {
         width:100%;
         margin: 0 auto;
@@ -696,5 +804,4 @@ b {
     .course_start__content_text {
         font-size: 10px;
     }
-
 }
