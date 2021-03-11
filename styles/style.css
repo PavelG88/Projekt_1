@@ -59,7 +59,7 @@ h1 {
 
 .section {
     background: #1E4681;
-    color: rgb(131, 127, 127);
+    color: white;
     max-width: 280px;
     margin: 30px auto;
     /* display: flex;
@@ -613,6 +613,10 @@ footer {
         width: 52.19px;
         height: 30.75px;
     }
+
+    .lesson_format {
+        padding: 0 35px;
+    }
     
     .lesson_format h2 {
         font-size: 26px;
@@ -632,6 +636,10 @@ footer {
     
     .item_info h3 {
         font-size: 12px;
+    }
+
+    .item_info p {
+        font-size: 10px;
     }
     
     .howToWatch {
@@ -657,6 +665,11 @@ footer {
         width: 100%;
         padding: 0 0 0 0;
         width: 100%;
+    }
+
+    .courseProgramm__title h2 {
+        font-size: 26px;
+        padding-left: 35px;
     }
 
     .what_learn {
