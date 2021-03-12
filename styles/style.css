@@ -25,6 +25,7 @@ header {
     width: 50%;
     font-size: 20px;
     margin-top: 97px;
+    list-style-type: none;
 }
 
 .icon_photo {
@@ -71,13 +72,13 @@ h1 {
     box-sizing: border-box;
 }
 
-.selection_text {
+.selection_text-1 {
     font-family: Roboto Slab;
-    font-size: 14px;  
+    font-size: 25px;  
 }
 
-.author {
-    font-size: 12px;
+.author-1 {
+    font-size: 20px;
     text-align: right;
     margin-top: 10px;         
 }
@@ -96,7 +97,7 @@ h2 {
     display: flex;
 }
 
-.operator_text {
+.operator_text-2 {
     width: 60%;
     font-size: 24px;
 }
@@ -109,6 +110,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 
@@ -464,12 +466,12 @@ footer {
         width: 176px;
     }
     
-    .selection_text {
+    .selection_text-1 {
         font-family: Roboto Slab;
         font-size: 14px;
     }
 
-    .author {
+    author-1 {
         font-size: 12px;
     }
 
@@ -479,7 +481,7 @@ footer {
         font-weight: 700;
     }
 
-    .operator_text {
+    .operator_text-2 {
         font-size: 14px;
     }
 
@@ -718,12 +720,12 @@ footer {
         width: 142px;
     }
     
-    .selection_text {
+    .selection_text-1 {
         font-family: Roboto Slab;
         font-size: 11px;
     }
 
-    .author {
+    .author-1 {
         font-size: 10px;
     }
 
@@ -733,8 +735,8 @@ footer {
         font-weight: 700;
     }
 
-    .operator_text {
-        font-size: 18px;
+    .operator_text-2 {
+        font-size: 12px;
     }
 
     .operator_photo {
