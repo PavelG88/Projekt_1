@@ -26,6 +26,7 @@ header {
     font-size: 20px;
     margin-top: 97px;
     list-style-type: none;
+    padding: 0;
 }
 
 .icon_photo {
@@ -40,6 +41,7 @@ span {
     display: flex;
     padding: 0 121px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .top_text {
@@ -98,6 +100,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .operator_text {
@@ -124,6 +127,7 @@ h2 {
 .menu {
     margin: 0 45px;
     max-width: 150px;
+    
 }
 
 .photo_7 {
@@ -464,6 +468,7 @@ footer {
         margin-top: 57px;
         font-family: roboto;
         font-weight: 700;
+        padding: 0;
     }
     h1 {
         font-family: Roboto Slab;
@@ -479,6 +484,11 @@ footer {
     .top_directed_photo {
         width: 176px;
     }
+    
+    .selection {
+        max-width: 225px;
+    }
+    
     .selection_text-1 {
         font-family: Roboto Slab;
         font-size: 14px;
@@ -499,6 +509,7 @@ footer {
     }
     .photo_7 img {
         width: 134px;
+        display: none
     }
     .operator {
         padding: 0 70px;
@@ -665,8 +676,13 @@ footer {
 
 @media (max-width: 992px) {
     header {
-        /* padding: 0 35px; */
+        padding: 0 35px;
     }
+
+    .top_container {
+        padding: 0 35px;
+    }
+
     .photo_1 {
         width: 52px;
         top: 36px;
@@ -676,21 +692,34 @@ footer {
         margin-top: 45px;
         font-family: roboto;
         font-weight: 400;
+        padding: 0;
+    }
+
+    .icon_photo img {
+        width: 10px;
     }
     h1 {
         font-family: Roboto Slab;
         font-size: 37px;
         font-weight: 700;
     }
+
+    .top_text {
+        width: 100%;
+    }
     .top-text2 {
         font-size: 10px;
-    }
-    .top_container {
-        /* padding: 0 35px; */
-    }
+     }
+
     .top_directed_photo {
         width: 142px;
     }
+    
+    .section {
+        max-width: 225px;
+        margin: 50px auto;
+    }
+
     .selection_text-1 {
         font-family: Roboto Slab;
         font-size: 11px;
@@ -708,24 +737,46 @@ footer {
     }
     .operator_photo {
         width: 146px;
+        margin: 0 auto;
     }
     .photo_7 img {
         width: 100px;
+        display: none;
+        
     }
     .operator {
-        /* padding: 0 35px; */
+        padding: 0 35px;
         display: flex;
         flex-wrap: wrap;
+       
     }
     .operator_text {
         font-size: 18px;
     }
-    .container {
-        /* padding: 0 35px; */
+
+    .operator_text-2 {
+        width: 100%;
     }
+    
+    .container-f {
+        padding-left: 55px;
+    }
+    
+    .container {
+        padding: 0;
+        margin: 0;
+        padding: 0 35px;
+    }
+
+    .menu {
+        padding: 0;
+        margin: 0; 
+    }
+
     .menu-1 {
         font-weight: 700;
         font-size: 12px;
+        align-items: flex-start;
     }
     .menu_text {
         font-size: 10px;
@@ -792,7 +843,7 @@ footer {
     }
     .courseProgramm__title h2 {
         font-size: 26px;
-        /* padding-left: 35px; */
+        padding-left: 35px;
     }
     .what_learn {
         padding: 0 35px;    
