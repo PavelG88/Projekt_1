@@ -153,7 +153,7 @@ h2 {
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    margin-bottom: 100px;
+    margin-bottom: 115px;
 }
 
 .info_lesson_format {
@@ -165,6 +165,7 @@ h2 {
 
 .item_info {
     width: 30%;
+    margin-bottom: 15px;
 }
 
 .item_info h3 {
@@ -172,7 +173,7 @@ h2 {
     font-size: 25px;
     line-height: 130%;
     color: #1E4681;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .item_info p {
@@ -200,7 +201,7 @@ h2 {
     max-width: 678px;
     font-size: 24px;
     line-height: 150%; 
-    margin-left: 15px;
+    margin-left: 22px;
     padding: 0;
 }
 
@@ -403,11 +404,13 @@ footer {
 
 .footer_info_logo {
     width: 115px;
+    margin-bottom: 18px;
 }
 
 .footer_info_messeger img {
     width: 30px;
-    margin: 30px 18px 18px 0;
+    margin-right: 36px;
+    margin-bottom: 18px;
 }
 
 .footer_copyright {
@@ -420,20 +423,27 @@ footer {
 .tele, .mail {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
-.contacts img {
+.tele img {
     width: 27px;
     height: 27px;
-    margin: 0 22px 25px 0;
+    margin-right: 22px;
+}
+
+.mail img {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
 }
 
 .contacts p {
     font-size: 25px;
     line-height: 101.38%;
     color: white;
-    margin: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
@@ -556,23 +566,34 @@ footer {
     
     .footer_info_messeger img {
         width: 19px;
-        margin: 17px 10.5px 17px 0;
+        margin-right: 11px;
+        margin-bottom: 6px;
     }
     
     .footer_copyright {
         margin-top: 85px;
         font-size: 10px;
     }
-    
-    .contacts img {
-        width: 15.6px;
-        height: 15.6px;
-        margin: 0 13px 14px 0;
+
+    .tele, .mail {
+        margin-bottom: 14px;
     }
     
+    .tele img {
+        width: 15.6px;
+        height: 15.6px;
+        margin-right: 13px;
+    }
+    
+    .mail img {
+        width: 15.6px;
+        height: 10.4px;
+        margin-right: 13px;
+    }
+
     .contacts p {
         font-size: 14px;
-        margin: 0 13px 14px 0;
+        margin: 0;
     }
 
     .what_learn {
@@ -587,7 +608,7 @@ footer {
     .info_what_learn {
         max-width: 393px;
         font-size: 14px;
-        margin-left: 10px;
+        margin-left: 16px;
     }
 
     .course_passed {    
@@ -775,7 +796,7 @@ footer {
     }
 
     .lesson_format {
-        /* padding: 0 35px; */
+        padding: 0 35px;
     }
     
     .lesson_format h2 {
@@ -785,13 +806,13 @@ footer {
     
     .info_lesson_format {
         flex-direction: column;
-        /* max-width: 180px; */
+        max-width: 180px;
 
     }
 
     .item_info {
         width: 100%;
-        margin: 0 0 23px 0;
+        margin-bottom: 23px;
     }
     
     .item_info h3 {
@@ -833,7 +854,7 @@ footer {
     }
 
     .what_learn {
-        /* padding: 0 35px;     */
+        padding: 0 35px;    
     }
     
     .what_learn h2 {
@@ -842,9 +863,9 @@ footer {
     }
     
     .info_what_learn {
-        /* max-width: 307px; */
+        max-width: 307px;
         font-size: 12px;
-        margin-left: 8px;
+        margin-left: 15px;
     }
 
     .courseProgramm .courseProgramm__sections .courseProgramm__programm-block {
