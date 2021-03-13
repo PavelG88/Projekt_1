@@ -491,7 +491,7 @@ footer {
         font-family: Roboto Slab;
         font-size: 14px;
     }
-    author-1 {
+    .author-1 {
         font-size: 12px;
     }
     h2 {
@@ -507,7 +507,6 @@ footer {
     }
     .photo_7 img {
         width: 134px;
-        display: none
     }
     .operator {
         padding: 0 70px;
@@ -515,6 +514,11 @@ footer {
     .container {
         padding: 0 70px;
     }
+
+    .menu {
+        margin: 0 20px;
+    }
+
     .menu-1 {
         font-weight: 700;
         font-size: 15px;
@@ -733,8 +737,12 @@ footer {
         width: 146px;
         margin: 0 auto;
     }
+
+    .photo_7 {
+        margin: 0;
+    }
+
     .photo_7 img {
-        width: 100px;
         display: none;
         
     }
@@ -752,25 +760,21 @@ footer {
         width: 100%;
     }
     
-    .container-f {
-        padding-left: 55px;
-    }
-    
     .container {
-        padding: 0;
         margin: 0;
         padding: 0 35px;
     }
 
     .menu {
         padding: 0;
-        margin: 0; 
+        margin: 0;
+        align-items: flex-start; 
     }
 
     .menu-1 {
         font-weight: 700;
         font-size: 12px;
-        align-items: flex-start;
+        /* align-items: flex-start; */
     }
     .menu_text {
         font-size: 10px;
