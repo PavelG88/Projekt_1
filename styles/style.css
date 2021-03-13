@@ -47,6 +47,7 @@ span {
 }
 
 h1 {
+    font-family: 'roboto slab';
     font-size: 80px;
     margin-bottom: 0;
 }
@@ -63,8 +64,8 @@ h1 {
 .section {
     background: #1E4681;
     color: white;
-    max-width: 280px;
-    margin: 30px auto;
+    max-width: 484px;
+    margin: 70px auto 170px auto;
     /* display: flex;
     flex-direction: column; */
     padding: 15px;
@@ -74,7 +75,8 @@ h1 {
 
 .selection_text-1 {
     font-family: Roboto Slab;
-    font-size: 25px;  
+    font-size: 25px;
+    margin: 0;  
 }
 
 .author-1 {
@@ -95,29 +97,38 @@ h2 {
 
 .operator_container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operator_text {
+    max-width: 662px;
 }
 
 .operator_text-2 {
-    width: 60%;
     font-size: 24px;
 }
 
 .operator_photo {
-    margin: 0 auto;
+    max-width: 314px;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     list-style-type: none;
+    padding: 0 121px;
+    flex-wrap: wrap;
 }
 
-
 .menu {
-    display: flex;
-    margin: 0;
-    width: 15%;
+    margin: 0 45px;
+    max-width: 150px;
+}
+
+.photo_7 {
+    margin-right: 85px;
 }
 
 .menu-1 {
@@ -489,7 +500,7 @@ footer {
         width: 182px;
     }
 
-    .photo_7 {
+    .photo_7 img {
         width: 134px;
     }
 
@@ -743,7 +754,7 @@ footer {
         width: 146px;
     }
 
-    .photo_7 {
+    .photo_7 img {
         width: 100px;
     }
 
@@ -753,7 +764,7 @@ footer {
         flex-wrap: wrap;
     }
 
-    .operator_text{
+    .operator_text {
         font-size: 18px;
     }
     
