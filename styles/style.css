@@ -200,7 +200,7 @@ h2 {
     max-width: 678px;
     font-size: 24px;
     line-height: 150%; 
-    margin-left: 15px;
+    margin-left: 22px;
     padding: 0;
 }
 
@@ -403,11 +403,13 @@ footer {
 
 .footer_info_logo {
     width: 115px;
+    margin-bottom: 18px;
 }
 
 .footer_info_messeger img {
     width: 30px;
-    margin: 30px 18px 18px 0;
+    margin-right: 36px;
+    margin-bottom: 18px;
 }
 
 .footer_copyright {
@@ -420,20 +422,27 @@ footer {
 .tele, .mail {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
-.contacts img {
+.tele img {
     width: 27px;
     height: 27px;
-    margin: 0 22px 25px 0;
+    margin-right: 22px;
+}
+
+.mail img {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
 }
 
 .contacts p {
     font-size: 25px;
     line-height: 101.38%;
     color: white;
-    margin: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
