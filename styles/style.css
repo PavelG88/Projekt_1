@@ -22,7 +22,6 @@ header {
 
 .container_icon {
     display: flex;
-    width: 50%;
     font-size: 20px;
     margin-top: 97px;
     list-style-type: none;
@@ -763,12 +762,14 @@ footer {
     .container {
         margin: 0;
         padding: 0 35px;
+        align-items: flex-start;
     }
 
     .menu {
         padding: 0;
-        margin: 0;
-        align-items: flex-start; 
+        margin-right: 20px;
+        margin-left: 0;
+         
     }
 
     .menu-1 {
